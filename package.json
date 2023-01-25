@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "dev": "nodemon listen.js",
-    "start": "nodemon listen.js",
+    "start": "node listen.js",
     "seed-prod": "NODE_ENV=production"
   },
   "repository": {
