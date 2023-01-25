@@ -5,7 +5,9 @@
   "main": "app.js",
   "scripts": {
     "test": "jest",
-    "dev": "nodemon listen.js"
+    "dev": "nodemon listen.js",
+    "start": "nodemon listen.js",
+    "seed-prod": "NODE_ENV=production"
   },
   "repository": {
     "type": "git",
